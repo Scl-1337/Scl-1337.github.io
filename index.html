@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>SYSTEM-WIN-MMC的个人网站</title>
-	</head>
-	<body>
-		<h1>SYTEM-WIN-MMC的个人网站</h1>
-		视频1：Progressive客户端下载链接<br>
-		<a href="https://wwzq.lanzouq.com/iI4in3b9oyzc">点我下载</a>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url('https://www.dmoe.cc/random.php') no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        .blur-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            z-index: -1; /* 关键修复：将模糊层置于内容后面 */
+        }
+        
+        h1, a {
+            position: relative; /* 确保内容在模糊层上方 */
+            z-index: 1;
+        }
+    </style>
+    <title>SYSTEM-WIN-MMC的个人网站</title>
+</head>
+<body>
+    <div class="blur-background"></div>
+    <h1>SYSTEM-WIN-MMC的个人网站</h1>
+    <img src="https://youke1.picui.cn/s1/2025/11/16/6919a11d2758e.png" alt="Progressive">
+    <br>
+    视频1：Progressive客户端下载链接<br>
+    <a href="https://wwzq.lanzouq.com/iI4in3b9oyzc">点我下载</a>
+</body>
 </html>
